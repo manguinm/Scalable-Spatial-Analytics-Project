@@ -12,4 +12,22 @@ CAISO has the specificity of having different clearing prices based on location,
 It is essential for a market participant to be able to predict the DAM price before submitting its bid to CAISO. That is why in a first step we decided to build a prediction model for the DAM price (average price in the system, not the LMP). It is also important for the market participant to understand the underlying risk when making a bid: that is why we studied the error between our prediction and the realized price.
 In a second step, we examined and visualized the LMP behavior, which is particularly interesting if we want to understand the local market power an agent can have.
 
+### Folders
+- Our **report** in .pdf that explains our approach in details
+
+- **bibliography** : contains our main references
+
+- **clustering** : contains our code in .ipynb files for our clustering of the electricity nodes
+
+- **price-prediction** : contains our code in .ipynb files for predicting the DAM price 
+
+- **dataviz_mapbox** : contains a sample of .png images of our nodes visualization work, using [Mapbox's tool](https://www.mapbox.com/). 
+
+- **demand-data** : the demand data in .csv files that we used to train our price prediction model
+
+- **price_data** : the price data in .csv files that we used to cross-validate our price prediction model
+
+- **losses_congestion_local_marginal_prices_data** : contains all the data used for visualization, ranging from 2015/11/01 to 2015/12/01 (one month of data). This data was extracted from CAISO's website thanks to this [CAISO scraper](https://github.com/emunsing/CAISO-Scrapers).
+
+
 Final Project by Melanie Manguin, Emily Porter & Bertrand Travacca.
